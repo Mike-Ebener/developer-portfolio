@@ -9,7 +9,7 @@ function About() {
       <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
       <div className="my-2">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+        Mike is a Product Management fanatic and loves solving problems for his customers.  He’s had opportunities to learn key product strategy and operations at Fortune 1 (Walmart) but hasn’t had deep exposure to software development.  He’s excited to learn the details of software development so he can better support engineering partners and position himself for further growth in Product. When not writing code and developing Products, Mike enjoys spending time in the San Francisco Bay on his boat. 
       </p>
       </div>
     </section>
