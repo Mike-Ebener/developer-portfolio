@@ -1,5 +1,6 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
+import Resume from '../Resume';
 
 function Nav(props) {
   const {
@@ -8,6 +9,9 @@ function Nav(props) {
     contactSelected,
     currentCategory,
     setContactSelected,
+    // new below
+    // resumeSelected,
+    // setResumeSelected,
   } = props;
 
   return (
@@ -45,6 +49,11 @@ function Nav(props) {
               </span>
             </li>
           ))}
+          <li className={`mx-2 ${Resume}`}>
+          <a data-testid="resume" href="#resume" onClick={() => setContactSelected(false)}>
+              Resume
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

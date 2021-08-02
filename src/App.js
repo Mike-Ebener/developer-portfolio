@@ -3,6 +3,8 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
+import Footer from './components/Footer';
+import Resume from './components/Resume';
 
 function App() {
   const [categories] = useState([
@@ -27,17 +29,22 @@ function App() {
         currentCategory={currentCategory}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
+        // resumeSelected={resumeSelected}
+        // setResumeSelected={setResumeSelected}
       ></Nav>
       <main>
         {!contactSelected ? (
           <>
-            <Gallery currentCategory={currentCategory}></Gallery>
+            <Gallery></Gallery>
             <About></About>
+            {/* <Resume></Resume> */}
           </>
         ) : (
             <ContactForm></ContactForm>
+            
           )}
       </main>
+      <Footer></Footer>
     </div>
   );
 }
