@@ -1,6 +1,6 @@
 {
   "homepage": "http://mike-ebener.github.io/developer-portfolio",
-  "name": "photo-port",
+  "name": "developer-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
