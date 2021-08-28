@@ -6,6 +6,8 @@ import photo2 from "../../assets/small/commercial/horiseon-background.jpeg";
 import photo3 from "../../assets/small/commercial/covid-tracker.jpeg";
 import photo4 from "../../assets/small/commercial/just-noise.jpeg";
 import photo5 from "../../assets/small/commercial/budget-tracker.jpeg";
+import photo6 from "../../assets/small/commercial/travel-share.jpeg";
+
 
 function Gallery(props) {
   const currentCategory = {
@@ -84,7 +86,17 @@ function Gallery(props) {
           <ul class="work-title"><a href="https://github.com/Mike-Ebener/budget-tracker">Budget Tracker  </a>
           </ul>
       </div>
-
+      <div className="flex-row">
+        <a href="https://travel-share44.herokuapp.com/">
+          <img
+            src={photo6}
+            alt="Commercial Example"
+            className="img-thumbnail mx-1"
+          />
+          </a>
+          <ul class="work-title"><a href="https://github.com/Mike-Ebener/travel-share">Travel Share</a>
+          </ul>
+      </div>
 
     </section>
   );
